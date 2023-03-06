@@ -77,10 +77,11 @@ document.getElementById('btn3').addEventListener('click', checkAnswer)
 document.getElementById('btn4').addEventListener('click', checkAnswer)
 
 
-// funtion that displays scoring-screen element
+// funtion that displays scoring-screen element and displays the users score
 function displayScoringScreen() {
   document.getElementById('quiz-form').style.display = 'none';
   document.getElementById('scoring-screen').style.display = 'block';
+  document.getElementById('finalscore').textContent = "You Scored" + " " + timer + " " + "points!";
 }
 
 // function that displays highscores-screen element and displays highscores from local storage if there are any saved scores in local storage already
