@@ -16,7 +16,7 @@ Link to the live site: https://jrossi425.github.io/timed_javascript_quizgame/
 
 ![image](https://user-images.githubusercontent.com/123151991/223241065-6672211e-833a-4bde-af9c-92d10fe84082.png)
 ![image](https://user-images.githubusercontent.com/123151991/223241223-e9c5d4fc-bcef-4f6b-8456-acbc2dd3df84.png)
-![image](https://user-images.githubusercontent.com/123151991/223241310-4538d54e-98d1-4871-a8d4-7ccf43abc374.png)
+![image](https://user-images.githubusercontent.com/123151991/223244029-ca65a957-0f74-4d5c-b36f-a1ddffec63d7.png)
 ![image](https://user-images.githubusercontent.com/123151991/223241547-55df3e0d-ceb1-49b1-83a0-8e19fe5566ec.png)
 
 ## Credits
