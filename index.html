@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Quiz</title>
+	<title>JavaScript Quiz!</title>
 	<link rel="stylesheet" type="text/css" href="./Assets/style.css">
 </head>
 <body>
-	<h1>Quiz</h1>
+	<h1>JavaScript Quiz</h1>
 	<div id="start-container">
 		<button type="button" id="start" onclick="startQuiz()">Start Quiz</button>
 	</div>
@@ -17,19 +17,14 @@
         <button id="btn4">d. 4</button>
 		<p id="timer">30 seconds remaining</p>
 	</div>
-    <div id="scoring-screen" style="display:none">
+	<div id="scoring-screen" style="display:none">
         <p id="finalscore">High Score</p>
         <input id="initials" type="text" placeholder="Enter Initials">
-        <button type="button" id="submit" onclick="handleFormSubmit()">Submit</button>
+        <button type="button" id="submit">Submit</button>
 		<p id="timerfinished">Time is up!</p>
+	</div>
     <div id="highscore-screen" style="display:none">
-		<ul id="highscore-list">
-			<li>1. ABC - 100</li>
-			<li>2. DEF - 90</li>
-			<li>3. GHI - 80</li>
-			<li>4. JKL - 70</li>
-			<li>5. MNO - 60</li>
-		</ul>
+		<ul id="highscore-list"></ul>
 		<button type="button" id="clear" onclick="clearHighScores()">Clear High Scores</button>
 		<button type="button" id="restart" onclick="resetQuiz()">Restart Quiz</button>
 	</div>
