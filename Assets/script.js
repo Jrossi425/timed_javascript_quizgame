@@ -127,7 +127,7 @@ function clearHighScores() {
   document.getElementById('highscore-list').innerHTML = '';
 }
 
-// function that resets the quiz and displays the start-container element when the reset button is clicked
+// function that resets the quiz and displays the start-container element when the reset button is clicked and refreshes the page
 function resetQuiz() {
   timer = 30;
   score = 0;
@@ -135,4 +135,5 @@ function resetQuiz() {
   displayQuestion();
   document.getElementById('highscore-screen').style.display = 'none';
   document.getElementById('start-container').style.display = 'block';
+  location.reload();
 }
